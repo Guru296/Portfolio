@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Portfolio - Guruprasad Chaubey</title>
+    <link rel="shortcut icon" href="profile.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+        <div class="container gap-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#aboutmeSection">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projectsSection">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skillsSection">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactmeSection">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container">
+        <!-- About me Section -->
+        <div class="row bg-light py-3 rounded" id="aboutmeSection">
+            <div class="col-12 col-md-5 d-flex justify-content-center mb-3">
+                <img class="profilePhoto " src="./profile.jpeg" alt="Guruprasad Chaubey">
+            </div>
+            <div class="col-12 col-md-7 ">
+                <h1>Guruprasad Chaubey</h1>
+                <h4>Java Fullstack Developer</h4>
+                <p>Fresher Java Developer with a strong foundation in Core Java, object-oriented programming concepts,
+                    and SQL. Familiar with collections, exception handling, and basic database operations. Eager to
+                    learn modern Java frameworks and contribute to building reliable, efficient backend applications
+                    while continuously improving technical and problem-solving skills.</p>
+
+                <!-- linkedin and gitgub Logo -->
+                <div class="d-flex gap-3 align-items-center" >
+                    <a href="https://in.linkedin.com/in/guruprasadchaubey" target="_blank">
+                        <i class="fa-brands fa-linkedin fs-1"></i>
+                    </a>
+                    <a class="" href="https://github.com/Guru296" target="_blank">
+                        <i class="fa-brands fa-github fs-1"></i>
+                    </a>
+                </div>
+                <div class="d-flex gap-3 my-4">
+                    <a href="hscGuru.pdf" download="guruprasad.pdf">
+                        <button type="button" class="btn btn-outline-primary btn-lg">Download Resume</button>
+                    </a>
+                    <a href="">
+                        <button type="button" class="btn btn-outline-warning btn-lg">Contact Me</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project Section -->
+         <section class="container my-5" id="projectsSection">
+    <h1 class="projectHeading text-center mb-4">Projects</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <!-- Project 1 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm overflow-hidden">
+
+                <video class="w-100" autoplay loop muted playsinline>
+                    <source src="codeAnime.mov" type="video/mp4">
+                </video>
+
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Code Anime</h5>
+                    <p class="card-text flex-grow-1">
+                        CodeAnime is an interactive platform that helps students learn DSA by visually simulating and iterating data structures using virtual elements.
+                    </p>
+
+                    <div class="d-flex gap-2">
+                        <a href="https://github.com/Guru296/codeanime" class="btn btn-outline-dark btn-sm" target="_blank">GitHub</a>
+                        <a href="https://codeanime.vercel.app/" class="btn btn-dark btn-sm" target="_blank">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm overflow-hidden">
+
+                <video class="w-100" autoplay loop muted playsinline>
+                    <source src="electroShare.mp4" type="video/mp4">
+                </video>
+
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Electroshare</h5>
+                    <p class="card-text flex-grow-1">
+                        ElectroShare is a web platform that enables users to buy, sell, or exchange small electronic components locally, making hardware sourcing faster and more accessible.
+                    </p>
+
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        <a href="#" class="btn btn-dark btn-sm">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm overflow-hidden">
+
+                <video class="w-100" autoplay loop muted playsinline>
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                </video>
+
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">SHOP.CO</h5>
+                    <p class="card-text flex-grow-1">
+                        SHOP.CO is a modern e-commerce website for clothing that offers a seamless shopping experience with intuitive browsing, secure checkout, and responsive design.
+                    </p>
+
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        <a href="#" class="btn btn-dark btn-sm">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+        <!-- Skills section -->
+
+        <div class="row" id="skillsSection">
+            <div class="skillLeft px-3 py-2 my-3 rounded col-12 col-md-6 col-lg-7 bg-light">
+                <h1 class="heading ">Explore My Expertise & Tech Stack</h1>
+                <p class="py-2 skillDesc">I build clean, responsive, and user-friendly web interfaces using modern
+                    JavaScript and
+                    React. I enjoy turning ideas into real-world projects, integrating APIs, and focusing on performance
+                    and usability. I’m continuously learning full-stack development, improving problem-solving skills,
+                    and exploring emerging technologies while preparing for industry-ready roles.</p>
+                <div class="buttons">
+                    <button type="button" class="btn btn-danger btn-sm mx-1">Skills</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Tools</button>
+                </div>
+            </div>
+            <div class="skillsBlock col-12 col-md-6 col-lg-5 ">
+                <div class="skills">
+                    <img src="./skills/pngegg.png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/pngegg (1).png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/pngegg (2).png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/pngegg (3).png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/pngegg (4).png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/pngegg (5).png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/git.png" alt="">
+                </div>
+                <div class="skills">
+                    <img src="./skills/nodejs.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Contact me -->
+
+        <section class="container my-5" id="contactmeSection">
+    <h1 class="text-center mb-4">Contact Me</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+
+                    <p class="text-center text-muted mb-4">
+                        Have a project idea, collaboration, or just want to say hi?  
+                        Feel free to reach out!
+                    </p>
+
+                    <form>
+                        <!-- Name -->
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-dark">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
